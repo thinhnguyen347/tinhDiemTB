@@ -65,7 +65,7 @@ class _HomePageState extends State<HomePage> {
           this.xepLoai = 'Học lực Yếu';
         }
 
-        this.thongBaoDiem = 'Điểm trung bình $diemTB';
+        this.thongBaoDiem = 'Điểm trung bình ${diemTB.toStringAsFixed(1)}';
       }
     });
   }
